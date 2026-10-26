@@ -11,6 +11,7 @@ And details of those devices such as MAC address, IP address, Hostname Lookup.
 -Appropriate privileges to send and receive network packets
 
 #Installation:
+
 1.Clone repository:
 ```
 git clone https://github.com/NoboBanana/python-lanscanner.git
@@ -20,9 +21,12 @@ git clone https://github.com/NoboBanana/python-lanscanner.git
 pip install scapy
 ```
 #Run it
+
 Linux:
 ```
 sudo lanscanner.py
 ```
 Windows(Run as Administrator in pwrshell or cmd):
+```
 python lanscanner.py
+```
